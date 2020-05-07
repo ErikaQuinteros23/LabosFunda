@@ -18,9 +18,9 @@ int main(void)
 
     cout << endl;
 
-    cout << "El area del circulo es: " << area << " centimetros cuadrados.";
+    cout << "El area del circulo es: " << area;
     cout << endl <<endl;
-    cout << "El perimetro del circulo es: " << perimetro << " centimetros.";
+    cout << "El perimetro del circulo es: " << perimetro;
 
     cout << endl << endl;
 

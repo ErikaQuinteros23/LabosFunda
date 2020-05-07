@@ -21,7 +21,7 @@ int main(void)
 
     cout << endl;
 
-    cout << "Ingrese la cantidad de productos comprar, por favor: ";
+    cout << "Ingrese la cantidad de productos a comprar, por favor: ";
     cin >> cantidad;
 
     cout << endl;
