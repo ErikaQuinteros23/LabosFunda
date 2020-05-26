@@ -23,7 +23,7 @@ int main(void)
     if (palabra[0] == palabra[caractpalabra - 1]){
         cout << "La palabra ingresada inicia y termina con la misma letra y la letra es: " << palabra[0];
     }else{
-        cout << "La palabra ingresada no incia y termina con la misma letra.";
+        cout << "La palabra ingresada no incia y no termina con la misma letra.";
     }
 
     cout << endl << endl;
