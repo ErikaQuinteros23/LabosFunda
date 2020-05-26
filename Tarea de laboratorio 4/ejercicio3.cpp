@@ -8,7 +8,7 @@ int main(void)
 
    int n;
 
-   cout << "Este es un programa que verifica si un numero es positivo o negativo" << endl << endl;
+   cout << "Este es un programa que verifica si un numero es positivo, negativo o cero" << endl << endl;
 
    cout << "Ingrese un numero: ";
    cin >> n;
