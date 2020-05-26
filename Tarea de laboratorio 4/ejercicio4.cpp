@@ -34,6 +34,5 @@ int main(void)
     cout << paroimpar << endl;
 
     cout << endl;
-
     return 0;
 }

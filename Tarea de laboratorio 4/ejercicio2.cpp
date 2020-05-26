@@ -21,7 +21,5 @@ int main(void)
     cout << n << respuesta;
 
     cout << endl << endl;
-
     return 0;
-
 }
