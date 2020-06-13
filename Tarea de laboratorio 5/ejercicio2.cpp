@@ -20,7 +20,7 @@ int main (void)
     cin >> segundos;
     cout << endl;
     
-    if (horas >= 24 || minutos >= 60 || segundos >= 60){
+    if (horas >= 24 || minutos >= 60 || segundos >= 60 || horas <= 0 || minutos <= 0 || segundos <= 0){
       cout << "La hora que ingreso no es correcta, hagalo de nuevo.";
     }else{
 
