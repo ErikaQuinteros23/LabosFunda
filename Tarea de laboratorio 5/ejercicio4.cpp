@@ -25,8 +25,8 @@ int main (void)
     int comprobacion2 = ano % 4;
     int comprobacion3 = ano % 100;
 
-    if (mes >= 13){
-        cout << "Un ano no tiene mas de 12 meses, escriba la fecha otra vez";
+    if (mes >= 13 || mes <= 0){
+        cout << "Un ano no tiene ese numero de meses, escriba la fecha otra vez";
         cout << endl << endl;
     }else if (mes == 1){
         if (dia > 31 || dia <= 0){
