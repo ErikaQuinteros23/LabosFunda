@@ -18,7 +18,11 @@ int main (void)
     cout << "Ingrese el numero menor:";
     cin >> menor;
     cout << endl;
-    cout << "El mcd de " << mayor << " y " << menor << " es: " << mcd (mayor, menor);
+    if (mayor >= menor){
+        cout << "El mcd de " << mayor << " y " << menor << " es: " << mcd (mayor, menor);
+    }else{
+        cout << "Ingrese los numeros al reves.";
+    }
 
     cout << endl << endl;
 
@@ -28,7 +32,7 @@ int main (void)
 int mcd (int mayor, int menor)
 {
     int residuo;
-    
+
     do 
     {
         residuo = mayor % menor;
@@ -38,7 +42,7 @@ int mcd (int mayor, int menor)
         }
     }
     while (residuo != 0);
-
+    
     return menor;
 
 }
