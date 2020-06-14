@@ -28,6 +28,9 @@ int main (void)
     if (mes >= 13 || mes <= 0){
         cout << "Un ano no tiene ese numero de meses, escriba la fecha otra vez";
         cout << endl << endl;
+    }else if (ano < 1){
+        cout << "No existen los anos negativos, escriba la fecha otra vez";
+        cout << endl << endl;
     }else if (mes == 1){
         if (dia > 31 || dia <= 0){
             cout << "Enero no tiene ese numero de dia, escriba la fecha otra vez.";
