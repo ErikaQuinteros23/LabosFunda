@@ -13,7 +13,11 @@ int main (void)
     cout << "Ingrese el ano: ";
     cin >> ano;
     cout << endl;
-    if (bisiesto (ano) == 1){
+
+    if (ano <=0){
+        cout << "No existen los anos negativos.";
+    }
+    else if (bisiesto (ano) == 1){
         cout << "El ano " << ano <<  " es bisiesto.";
     }else{
         cout << "El ano " << ano <<  " no es bisiesto.";
